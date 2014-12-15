@@ -75,5 +75,14 @@
     <None Include="res\defaultImg.jpg">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="res\defaultImg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="defaultImg.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

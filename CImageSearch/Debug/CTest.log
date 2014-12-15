@@ -1,108 +1,24 @@
-﻿生成启动时间为 2014/12/15 17:35:05。
-     1>项目“D:\xmwang\图像检索演示程序\CImageLabel\CTest.vcxproj”在节点 2 上(rebuild 个目标)。
+﻿生成启动时间为 2014/12/15 21:19:24。
+     1>项目“D:\xmwang\Projects\CImageSearch\CTest.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“.\Debug\CTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\CTest.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
-         StdAfx.cpp
-         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\CTest.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CCFileClass.cpp CMyDataBase.cpp CTest.cpp CTestDlg.cpp
-         CTestDlg.cpp
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(295): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(302): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(335): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(342): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(475): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(477): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(377): warning C4101: “iTotalTopic”: 未引用的局部变量
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(528): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(553): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(601): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(626): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(673): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(698): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(746): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(771): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(818): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(843): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(890): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(915): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(962): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(987): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1034): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1059): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1106): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1131): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1178): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1203): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1250): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1275): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1322): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1347): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1394): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1419): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1507): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1512): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1643): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1648): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(1745): warning C4101: “nTagsFileIndex”: 未引用的局部变量
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(2337): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctestdlg.cpp(2339): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-         CTest.cpp
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ctest.cpp(52): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(5344) : 参见“CWinApp::Enable3dControls”的声明
-         CMyDataBase.cpp
-     1>d:\xmwang\图像检索演示程序\cimagelabel\cmydatabase.cpp(80): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>d:\xmwang\图像检索演示程序\cimagelabel\cmydatabase.cpp(122): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-         CCFileClass.cpp
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ccfileclass.cpp(63): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ccfileclass.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\xmwang\图像检索演示程序\cimagelabel\ccfileclass.cpp(106): warning C4101: “szLine”: 未引用的局部变量
-         正在生成代码...
+         所有输出均为最新。
+         所有输出均为最新。
        ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\CTest.res" CTest.rc 
+         所有输出均为最新。
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\CTest.exe.embed.manifest.res" .\Debug\CTest_manifest.rc 
+         所有输出均为最新。
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\CTest.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\CTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\xmwang\图像检索演示程序\CImageLabel\Debug\CTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\CTest.lib" /MACHINE:X86 .\Debug\CTest.res
-         .\Debug\CTest.exe.embed.manifest.res
-         .\Debug\CCFileClass.obj
-         .\Debug\CMyDataBase.obj
-         .\Debug\CTest.obj
-         .\Debug\CTestDlg.obj
-         .\Debug\StdAfx.obj
+         所有输出均为最新。
        Manifest:
-         正在删除文件“.\Debug\CTest.exe.embed.manifest”。
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\CTest.exe.embed.manifest" /manifest .\Debug\CTest.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\CTest.exe.embed.manifest.res" .\Debug\CTest_manifest.rc 
-       LinkEmbedManifest:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\CTest.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\CTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\xmwang\图像检索演示程序\CImageLabel\Debug\CTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\CTest.lib" /MACHINE:X86 .\Debug\CTest.res
-         .\Debug\CTest.exe.embed.manifest.res
-         .\Debug\CCFileClass.obj
-         .\Debug\CMyDataBase.obj
-         .\Debug\CTest.obj
-         .\Debug\CTestDlg.obj
-         .\Debug\StdAfx.obj
-         CTest.vcxproj -> D:\xmwang\图像检索演示程序\CImageLabel\.\Debug\CTest.exe
+         所有输出均为最新。
        FinalizeBuildStatus:
          正在删除文件“.\Debug\CTest.unsuccessfulbuild”。
          正在对“.\Debug\CTest.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\xmwang\图像检索演示程序\CImageLabel\CTest.vcxproj”(rebuild 个目标)的操作。
+     1>已完成生成项目“D:\xmwang\Projects\CImageSearch\CTest.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:05.11
+已用时间 00:00:00.21

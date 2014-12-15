@@ -1,9 +1,9 @@
-﻿// Created by Microsoft (R) C/C++ Compiler Version 10.00.30319.01 (6d8a0fa2).
+﻿// Created by Microsoft (R) C/C++ Compiler Version 10.00.30319.01 (9637e8d8).
 //
-// d:\xmwang\图像检索演示程序\cimagelabel\debug\msado15.tli
+// d:\xmwang\projects\cimagesearch\debug\msado15.tli
 //
 // Wrapper implementations for type library c:\program files\common files\system\ado\msado15.dll
-// compiler-generated file created 12/15/14 at 17:35:06 - DO NOT EDIT!
+// compiler-generated file created 12/15/14 at 21:01:33 - DO NOT EDIT!
 
 #pragma once
 
