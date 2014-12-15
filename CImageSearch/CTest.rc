@@ -1,0 +1,269 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CTest.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 CTest"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CTest 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CTEST_DIALOG DIALOGEX 0, 0, 776, 458
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "图像检索软件 v1.0"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Search",IDOK,685,199,66,14
+    DEFPUSHBUTTON   "Quit",IDCANCEL,687,294,66,14
+    CONTROL         "",IDC_STATIC1,"Static",SS_BITMAP | SS_CENTERIMAGE,9,7,138,118
+    CONTROL         "",IDC_STATIC2,"Static",SS_BITMAP | SS_CENTERIMAGE,165,7,138,118
+    CONTROL         "",IDC_STATIC4,"Static",SS_BITMAP | SS_CENTERIMAGE,480,8,138,118
+    CONTROL         "是",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,201,134,26,10
+    CONTROL         "否",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,255,132,30,11
+    CONTROL         "是",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | WS_GROUP,395,133,25,11
+    CONTROL         "否",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,449,135,27,12
+    CONTROL         "",IDC_STATIC3,"Static",SS_BITMAP | SS_CENTERIMAGE,324,7,138,118
+    CONTROL         "是",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | WS_GROUP,549,136,44,11
+    CONTROL         "否",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,595,137,35,10
+    CONTROL         "",IDC_STATIC5,"Static",SS_BITMAP | SS_CENTERIMAGE,7,173,138,118
+    CONTROL         "",IDC_STATIC6,"Static",SS_BITMAP | SS_CENTERIMAGE,167,171,138,118
+    CONTROL         "",IDC_STATIC7,"Static",SS_BITMAP | SS_CENTERIMAGE,323,169,138,118
+    CONTROL         "",IDC_STATIC8,"Static",SS_BITMAP | SS_CENTERIMAGE,480,169,138,118
+    CONTROL         "",IDC_STATIC9,"Static",SS_BITMAP | SS_CENTERIMAGE,12,317,138,118
+    CONTROL         "",IDC_STATIC10,"Static",SS_BITMAP | SS_CENTERIMAGE,167,317,138,118
+    CONTROL         "",IDC_STATIC11,"Static",SS_BITMAP | SS_CENTERIMAGE,324,315,138,118
+    CONTROL         "",IDC_STATIC12,"Static",SS_BITMAP | SS_CENTERIMAGE,479,316,138,118
+    CONTROL         "是",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | WS_GROUP,44,281,44,10
+    CONTROL         "否",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,105,281,26,11
+    CONTROL         "是",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON | WS_GROUP,208,279,30,14
+    CONTROL         "否",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON,257,279,37,12
+    CONTROL         "是",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON | WS_GROUP,385,283,32,8
+    CONTROL         "否",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON,437,281,30,8
+    CONTROL         "是",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON | WS_GROUP,553,279,26,14
+    CONTROL         "否",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON,606,279,29,13
+    CONTROL         "是",IDC_RADIO17,"Button",BS_AUTORADIOBUTTON | WS_GROUP,47,427,51,14
+    CONTROL         "否",IDC_RADIO18,"Button",BS_AUTORADIOBUTTON,105,428,28,12
+    CONTROL         "是",IDC_RADIO19,"Button",BS_AUTORADIOBUTTON | WS_GROUP,199,428,30,11
+    CONTROL         "否",IDC_RADIO20,"Button",BS_AUTORADIOBUTTON,255,429,30,10
+    CONTROL         "是",IDC_RADIO21,"Button",BS_AUTORADIOBUTTON | WS_GROUP,392,430,33,8
+    CONTROL         "否",IDC_RADIO22,"Button",BS_AUTORADIOBUTTON,444,430,28,9
+    CONTROL         "是",IDC_RADIO23,"Button",BS_AUTORADIOBUTTON | WS_GROUP,554,428,27,12
+    CONTROL         "否",IDC_RADIO24,"Button",BS_AUTORADIOBUTTON,609,427,26,10
+    DEFPUSHBUTTON   "Prev",IDC_BUTTON1,687,269,31,14
+    DEFPUSHBUTTON   "Next",IDC_BUTTON2,723,269,31,14
+    EDITTEXT        IDC_EDIT_TOPIC,687,177,66,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    CTEXT           "",IDC_SHOW_PAGE,687,249,66,14,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "",IDC_SHOW_TOTALNUM,687,226,66,14,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CONTROL         "否",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,112,131,28,13
+    CONTROL         "是",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,61,133,27,10
+    DEFPUSHBUTTON   "Upload",IDC_BUTTON3,687,153,66,14
+    CONTROL         "",IDC_STATIC13,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_RIGHTJUST,647,7,122,120
+    GROUPBOX        "",IDC_RECT12,545,420,97,24,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_RECT11,384,421,97,24,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_RECT10,195,421,97,22,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_RECT9,43,420,97,24,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_RECT8,543,272,97,24,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_RECT7,378,273,99,22,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_RECT6,201,272,97,24,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_RECT5,39,274,97,24,NOT WS_VISIBLE | WS_DISABLED
+    GROUPBOX        "",IDC_RECT4,546,128,88,21
+    GROUPBOX        "",IDC_RECT3,388,125,89,23,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_RECT2,196,124,99,22,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_RECT1,53,123,97,27,NOT WS_VISIBLE
+    LTEXT           "Input query image",IDC_STATIC,680,132,77,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "CTest Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "CTest"
+            VALUE "LegalCopyright", "版权所有 (C) 2012"
+            VALUE "OriginalFilename", "CTest.EXE"
+            VALUE "ProductName", "CTest 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CTEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 769
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 451
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\defaultImg.bmp"
+IDB_BITMAP2             BITMAP                  "res\\bitmap2.bmp"
+IDB_BITMAP3             BITMAP                  "res\\bitmap3.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// ID_DEFAULTIMG
+//
+
+IDR_ID_DEFAULTIMG1      ID_DEFAULTIMG           "defaultImg.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 CTest(&A)..."
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\CTest.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

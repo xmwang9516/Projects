@@ -1,0 +1,5 @@
+[IMAGENAME]
+ReturnImages1=D:\image\ukbench00025.jpg
+ReturnImages2=D:\image\ukbench00060.jpg
+ReturnImages3=D:\image\ukbench00109.jpg
+ReturnImages4=D:\image\ukbench00026.jpg

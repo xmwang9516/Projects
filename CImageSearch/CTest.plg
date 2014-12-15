@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/CTest.res" /d "_DEBUG" /d "_AFXDLL" "F:\Í¼Ïñ±ê×¢Èí¼þ\vc³ÌÐò\CMyProjectOne\CTest.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Í¼Ïñ±ê×¢Èí¼þ\vc³ÌÐò\CMyProjectOne\CMyDataBase.cpp"
+"F:\Í¼Ïñ±ê×¢Èí¼þ\vc³ÌÐò\CMyProjectOne\CTest.cpp"
+"F:\Í¼Ïñ±ê×¢Èí¼þ\vc³ÌÐò\CMyProjectOne\CTestDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CTest.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Í¼Ïñ±ê×¢Èí¼þ\vc³ÌÐò\CMyProjectOne\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CTest.pdb" /debug /machine:I386 /out:"Debug/CTest.exe" /pdbtype:sept  ".\Debug\CMyDataBase.obj" ".\Debug\CTest.obj" ".\Debug\CTestDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\CTest.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+f:\Í¼Ïñ±ê×¢Èí¼þ\vc³ÌÐò\cmyprojectone\debug\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Compiling...
+CMyDataBase.cpp
+CTest.cpp
+CTestDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CTest.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

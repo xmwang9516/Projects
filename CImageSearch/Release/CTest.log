@@ -1,0 +1,47 @@
+﻿  CTestDlg.cpp
+CTestDlg.cpp(273): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+CTestDlg.cpp(280): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+CTestDlg.cpp(313): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+CTestDlg.cpp(320): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+CTestDlg.cpp(451): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+CTestDlg.cpp(453): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+CTestDlg.cpp(495): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+CTestDlg.cpp(497): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+CTestDlg.cpp(548): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(573): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(621): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(646): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(693): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(718): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(766): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(791): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(838): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(863): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(910): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(935): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(982): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(1007): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(1054): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(1079): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(1126): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(1151): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(1198): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(1223): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(1270): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(1295): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(1342): warning C4244: “=”: 从“ULONGLONG”转换到“long”，可能丢失数据
+CTestDlg.cpp(1367): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+CTestDlg.cpp(1456): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+CTestDlg.cpp(1461): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+d:\vc projects\cimagelabel\ctestdlg.cpp(467): warning C4700: 使用了未初始化的局部变量“iTotalTopic”
+  CTest.vcxproj -> D:\vc projects\CImageLabel\.\Release\CTest.exe
